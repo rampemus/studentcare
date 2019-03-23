@@ -7,6 +7,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Generates persons + utu usernames.
@@ -37,7 +38,9 @@ abstract class UserGenerator {
 
         if (new Random().nextBoolean()) nameGenerator = this::generatemName;
 
-        int targetLength = new Random().nextBoolean() ? maxNumber : new Random().nextInt(maxNumber + minNumber - 1) + minNumber;
+        // 50% -> max
+        // 50% -> min .. max
+        int targetLength = new Random().nextBoolean() ? maxNumber : new Random().nextInt(maxNumber - minNumber + 1) + minNumber;
 
         while (nameCount < targetLength) {
             String nextName = nameGenerator.get();
@@ -51,16 +54,16 @@ abstract class UserGenerator {
         return names;
     }
 
-    public String generateUserName(String fNames, String sName, Predicate<String> filter) {
+    public String generateUserName(String firstNames, String lastName, Predicate<String> filter) {
         Function<String, String> processName = name -> name.replaceAll("-", " ").replaceAll("[^\\x20-\\x7F]", "").toLowerCase();
 
-        String[] fNamesASCII = processName.apply(fNames).split(" ");
-        String sNameASCII = processName.apply(sName);
+        String[] firstNamesASCII = processName.apply(firstNames).split(" ");
+        String lastNameASCII = processName.apply(lastName);
 
         List<String> prefixes = new ArrayList<>();
         prefixes.add("");
 
-        for (String s : fNamesASCII) {
+        for (String s : firstNamesASCII) {
             List<String> newNames = new ArrayList<>();
             for (String prefix : prefixes) {
                 for (int l : new int[]{2, 3, 1, 4, 0})
@@ -68,19 +71,15 @@ abstract class UserGenerator {
             }
             prefixes = newNames;
         }
-        for (String prefix : prefixes) {
-            String name = prefix + sNameASCII;
-            if (name.length() < 6) {
-                if (!filter.test(name))
-                    return name;
-            } else {
-                String candidate = name.substring(0, 6);
-                if (!filter.test(candidate)) {
-                    return candidate;
-                }
-            }
-        }
-        return null;
+        List<String> userNames = prefixes.stream().map(p -> {
+            String result = p + lastNameASCII;
+            return result.substring(0, Math.min(result.length(), 6));
+        }).filter(filter.negate()).collect(Collectors.toList());
+
+        return Stream.concat(
+                userNames.stream().filter(n -> n.length()==6),
+                userNames.stream().filter(n -> n.length()<6).sorted((m, n) -> n.length() - m.length())
+        ).findFirst().orElse(null);
     }
 
     public String generateFirstNames() {
