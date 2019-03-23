@@ -1,0 +1,109 @@
+(C) University of Turku 2018
+https://peppi.utu.fi
+Nimi,Opintojakson tunnus,Laajuus
+Security Engineering,DTEK0039,5.0
+Acquisition and Analysis of Biosignals,DTEK0042,5.0
+IoT Systems: Design and Applications,DTEK0043,5.0
+Project Management,DTEK0044,2.0
+"Technological Systems, Foresight and Societal Change",DTEK0046,5.0
+Product Development and Management - PDM,DTEK0048,5.0
+Sulautetut prosessorijärjestelmät,DTEK1019,4.0
+Diplomityöseminaari,DTEK1020,5.0
+Tiedonsiirron perusteet,DTEK1039,5.0
+Teollisuustalouden ja tuote- ja palveluliiketoiminnan opintojakso,DTEK1044,2.0
+Insinöörityön perusteet,DTEK1045,5.0
+Olio-ohjelmoinnin metodiikka,DTEK1048,4.0
+Käyttöliittymät,DTEK1049,4.0
+Tietoverkkotekniikat,DTEK1050,4.0
+Tietokonearkkitehtuurit ja käyttöjärjestelmät,DTEK1051,4.0
+Energy Efficient Embedded Electronics,DTEK1057,5.0
+Tietoyhteiskunta ja kyberturvallisuus,DTEK1064,4.0
+Hajautetut ohjelmistojärjestelmät ja pilvipalvelut,DTEK1066,4.0
+"Opiskelun ja työelämän tietotekniikka, Digitaalisuus",DTEK1067,1.0
+"Opiskelun ja työelämän tietotekniikka, Tieto-ja kyberturvallisuus",DTEK1068,1.0
+"Opiskelun ja työelämän tietotekniikka, Toimistosovellukset",DTEK1069,1.0
+"Opiskelun ja työelämän tietotekniikka, Unix",DTEK1070,1.0
+Health Informatics,DTEK1075,5.0
+"Opiskelun ja työelämän tietotekniikka, Matlab",DTEK1076,1.0
+Ohjelmistotuotannon peruskurssi,DTEK1201,4.0
+Mikroprosessorit,DTEK1203,5.0
+Lineaariset järjestelmät ja piirit,DTEK1205,5.0
+Elektroniikkajärjestelmät,DTEK1206,4.0
+Digitaaliset tietoliikennejärjestelmät,DTEK1207,5.0
+Digitaalinen signaalinkäsittely,DTEK1208,3.0
+Multiprocessor Architectures,DTEK2027,5.0
+Human Element in Information Security,DTEK2029,5.0
+Communication Technologies and Security in IoT,DTEK2034,5.0
+Industrial Seminar on Future Technologies,DTEK2036,5.0
+Lean Platform Business Design,DTEK2037,10.0
+Co-Creation in Product Development,DTEK2038,5.0
+Technology Design in Context,DTEK2039,5.0
+Web- ja mobiiliohjelmointi,DTEK2040,5.0
+Sulautettujen järjestelmien ohjelmointi,DTEK2041,4.0
+System and Application Security,DTEK8025,5.0
+Protocol Processing and Security,DTEK8060,5.0
+Firewall and IPS Technology,DTEK8063,5.0
+HDL Based Design,DTEK8067,5.0
+Capstone Project,DTEK8076,15.0
+Medical Instrumentation,DTEK8080,5.0
+Embedded IoT Programming,DTEK8081,5.0
+FPGA Prototyping and Configurable Computing,DTEK8082,5.0
+Digital Systems Engineering,DTEK8083,5.0
+Autonomous Systems Architectures,DTEK8085,5.0
+Sensors and Interfaces,DTEK8086,5.0
+Analog IC Design,DTEK8088,5.0
+Mixed-Mode IC Design,DTEK8089,5.0
+RF IC Design,DTEK8090,5.0
+"Master’s Thesis Seminar, Health Technology, Medical Analytics and Health IoT",DTEK8094,5.0
+DSP System Engineering,DTEK8095,5.0
+Network Infrastructure Technologies and Security,DTEK8096,5.0
+Secure Sensor Network Systems,DTEK8097,5.0
+Software Development and Software Security,DTEK8098,5.0
+"Practical Software Quality Management, Testing and Estimation",DTEK8099,5.0
+Advanced Programming Techniques,DTEK8101,5.0
+Privacy and Security for Software Systems,DTEK8102,5.0
+Software Design and Architecture,DTEK8103,5.0
+Software Engineering Seminar,DTEK8104,5.0
+Software House,DTEK8105,7.0
+Digital Standard Cell Integration,DTEK8106,5.0
+Mismatch in IC Design,DTEK8107,5.0
+Engineering Profession,DTEK8110,3.0
+Olio-ohjelmoinnin perusteet,TKO_2005,5.0
+Interactive Storytelling,TKO_2029,5.0
+Algoritmien ja ohjelmoinnin peruskurssi,TKO_2038,5.0
+Introduction to Game Development Tools,TKO_2081,5.0
+Applications of Data Analysis,TKO_2096,5.0
+Johdatus tekoälyyn,TKO_2103,2.0
+Data Analysis and Knowledge Discovery,TKO_3103,5.0
+Data ja vuorovaikutus,TKO_3104,5.0
+Tietorakenteet ja algoritmit,TKO_3107,5.0
+Algorithm Design,TKO_3108,5.0
+Advanced Algorithm Design,TKO_3109,5.0
+Principles of Interaction Design,TKO_3110,5.0
+Game Design,TKO_3112,5.0
+Educational Technology and Technology Education,TKO_3113,5.0
+Learning Analytics,TKO_3115,5.0
+"Orientoivat opinnot, tietojenkäsittelytiede",TKO_3117,3.0
+IxD Seminar,TKO_3118,5.0
+Machine Learning and Pattern Recognition,TKO_3120,5.0
+Machine Learning and Algorithmics Seminar,TKO_3121,5.0
+Tietokantojen perusteet 1,TKO_3122,5.0
+Practical Course in Digital Educational Technologies,TKO_3125,5.0
+Game Testing,TKO_3127,5.0
+Tekoälyn perusmenetelmät,TKO_3128,3.0
+Project Course on Game Development,TKO_5061,5.0
+Tietokantojen perusteet 2,TKO_5735,2.0
+Tietojenkäsittelyn perusteet I,TKO_5736,3.0
+"Tietojenkäsittelyn perusteet I, tentti",TKO_5737,2.0
+Tietojenkäsittelyn perusteet II,TKO_5738,5.0
+Digital Art Master Class,TKO_5739,5.0
+Algoritmien ja ohjelmoinnin peruskurssin harjoitustyö,TKO_8558,1.0
+Deep Learning,TKO_8612,5.0
+Olio-ohjelmoinnin perusteiden harjoitustyö,TKO_8956,2.0
+Mixed Reality,TKO_8960,5.0
+Textual Data Analysis,TKO_8964,5.0
+Johdatus kieliteknologiaan,TKO_8966,5.0
+Research Methods and Tools,TKO_8967,5.0
+Gamification and Serious Games,TKO_8969,5.0
+"Soveltuva projekti, Tulevaisuuden teknologioiden laitos",TKO_8971,3.0
+"LuK-tutkielma ja seminaari, tietojenkäsittelytiede",TKO_8981,10.0
