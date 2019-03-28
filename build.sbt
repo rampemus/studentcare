@@ -93,6 +93,8 @@ libraryDependencies ++= Seq(
   "org.junit.jupiter"  % "junit-jupiter-migrationsupport" % "5.4.1" % Test,
   "org.junit.jupiter"  % "junit-jupiter-params"           % "5.4.1" % Test,
   "net.jqwik"          % "jqwik"                          % "1.1.1" % Test,
+  "org.xerial"         % "sqlite-jdbc"                    % "3.27.2.1",
+  "org.parboiled"      % "parboiled-java"                 % "1.3.0",
   "org.scalatest"      %% "scalatest"                     % "3.0.5" % Test
   //"io.cucumber"        % "cucumber-junit"                 % "4.2.2", does not support junit 5 yet
 )
