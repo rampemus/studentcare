@@ -53,7 +53,7 @@ public class MainApp extends Application {
      * @param stage Main window
      */
     private void startGraphicalUI(Stage stage) {
-        // TODO: toteuta!
+        // TODO: toteuta! ok!
     }
 
     @Override
